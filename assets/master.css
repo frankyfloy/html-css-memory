@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #acd8e6;
+}
+
+header,main,footer{
+    margin: 0 20%;
+    width: 60%;
+}
+
+header{
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+
+/* ROW PROPERTY */
+.row:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.row{
+    margin: 20px;
+}
+
+
+/* COLUMNS PROPERTY */
+[id^='col-']{
+    display: inline-block;
+    float: left;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: 25%;
+    height: 180px;
+}
+
+/* CONTAINERS ITEMS/ IMG */
+[id^='card-']{
+    background-image: url('img/pattern.png');
+    background-size: contain;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-shadow: 2px 2px 2px #808080;
+}
+
+
+
+/* -------------HOVER-------------- */
+
+
+/* CARD COMBINATION */
+
+
+/* CARD 1-ROW-2 & CARD 2-ROW-3   (AIR BALLON)*/
+#card-1_row2:hover{
+    background-image: url('img/air_balloon.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card-1_row2:hover:after{
+    content: 'Air ballons';
+    font-family: 'Nerko One';
+    color: violet;
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#card-2_row3:hover{
+    background-image: url('img/air_balloon.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card-2_row3:hover:after{
+    content: 'Air ballons';
+    font-family: 'Nerko One';
+    color: violet;
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* CARD 2-ROW-2 & CARD 1-ROW-4  (Tractor)*/
+#card-2_row2:hover{
+    background-image: url('img/Tractor.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card-2_row2:hover:after{
+    content: 'Tractor';
+    font-family: 'Nerko One';
+    color: orange;
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#card-1_row4:hover{
+    background-image: url('img/Tractor.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card-1_row4:hover:after{
+    content: 'Tractor';
+    font-family: 'Nerko One';
+    color: orange;
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* CARD 3-ROW-2 & CARD 4-ROW-4    (Submarine)*/
+#card-3_row2:hover{
+    background-image: url('img/Submarine.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card-3_row2:hover:after{
+    content: 'Submarine';
+    font-family: 'Nerko One';
+    color: blue;
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#card-4_row4:hover{
+    background-image: url('img/Submarine.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card-4_row4:hover:after{
+    content: 'Submarine';
+    font-family: 'Nerko One';
+    color: blue;
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* CARD 4-ROW-2 & CARD 2-ROW-4  (TRAM)*/
+#card-4_row2:hover{
+    background-image: url('img/Tram.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card-4_row2:hover:after{
+    content: 'Tram';
+    font-family: 'Nerko One';
+    color: yellow;
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#card-2_row4:hover{
+    background-image: url('img/Tram.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card-2_row4:hover:after{
+    content: 'Tram';
+    font-family: 'Nerko One';
+    color: yellow;
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* CARD 4-ROW-2 & CARD 2-ROW-4  (Cruise Ship)*/
+#card-1_row3:hover{
+    background-image: url('img/Cruise_Ship.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card-1_row3:hover:after{
+    content: 'Cruise Ship';
+    font-family: 'Nerko One';
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#card-3_row4:hover{
+    background-image: url('img/Cruise_Ship.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card-3_row4:hover:after{
+    content: 'Cruise Ship';
+    font-family: 'Nerko One';
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* CARD 3-ROW-3 & CARD 4-ROW-3  (Bicycle)*/
+#card-3_row3:hover{
+    background-image: url('img/Bicycle.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card-3_row3:hover:after{
+    content: 'Bicycle';
+    font-family: 'Nerko One';
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#card-4_row3:hover{
+    background-image: url('img/Bicycle.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card-4_row3:hover:after{
+    content: 'Bicycle';
+    font-family: 'Nerko One';
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text_style{
+    font-family: 'Nerko One', cursive;
+    text-shadow: 2px 2px 2px #808080;
+
+}
+
+.border-radius{
+    border-radius: 10px;
+}
